@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_open_assets"
+            android:text="From Asset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#faf616"
+            android:layout_marginBottom="15dp"
+            android:padding="15dp"
+
+            />
+
+        <Button
+            android:id="@+id/btn_open_storage"
+            android:text="From Device"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ed9be5"
+            android:padding="15dp"
+
+
+            />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

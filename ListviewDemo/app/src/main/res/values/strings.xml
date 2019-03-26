@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">ListViewDemo</string>
+    
+    <string-array name="contact_names">
+
+        <item>Razorshi</item>
+        <item>Naflu</item>
+        <item>Shagota</item>
+        <item>Rahul</item>
+        <item>Laboni</item>
+        <item>Nirjhor</item>
+        <item>Marshia</item>
+        <item>Mifta</item>
+        <item>Samiha</item>
+        <item>Mamun</item>
+        <item>Robin</item>
+        <item>Faisal</item>
+        <item>Jhinuk</item>
+        <item>Nahiyan</item>
+        <item>Anika</item>
+        <item>Nazmul</item>
+        <item>Binoy</item>
+        <item>Kakoli</item>
+        <item>Anik</item>
+        <item>Prova</item>
+        <item>Taskin</item>
+        <item>Soumen</item>
+        <item>Sabbir</item>
+        <item>Jhalak</item>
+        <item>Sachin</item>
+        <item>Ashiq</item>
+        <item>Bijoy</item>
+        <item>Alamin</item>
+        <item>Gupto</item>
+        <item>Juthi</item>
+
+    </string-array>
+
+</resources>

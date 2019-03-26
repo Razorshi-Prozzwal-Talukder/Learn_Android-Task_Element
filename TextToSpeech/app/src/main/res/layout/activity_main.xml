@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/my_bd_anim"
+    android:id="@+id/myLayout"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_text"
+        android:hint="Type Something"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="55dp"
+        android:lines="8"
+        android:minLines="6"
+        android:gravity="top|left"
+        android:maxLines="10"
+        android:padding="3dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pitch"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        />
+    <SeekBar
+        android:id="@+id/seekbar_pitch"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:progress="50"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Speed"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        />
+    <SeekBar
+        android:id="@+id/seekbar_speed"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:progress="50"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center"/>
+
+
+
+    <Button
+        android:id="@+id/button_speak"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:text="Tap for Listen"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:enabled="false"
+        android:textAllCaps="false"
+        android:background="@drawable/btn"
+        />
+
+
+</LinearLayout>
